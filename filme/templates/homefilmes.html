@@ -15,4 +15,19 @@ HomeFilmes Hashflix
     {% endfor %}
 </div>
 
+<div class="py-10">
+    <h2>Novo</h2>
+    {% for filme in lista_filmes_recentes %}
+        {{ filme }}
+    {% endfor %}
+</div>
+
+<div class="py-10">
+    <h2>Em alta</h2>
+    {% for filme in lista_filmes_em_alta %}
+        {{ filme }}
+    {% endfor %}
+</div>
+
+
 {% endblock %}
