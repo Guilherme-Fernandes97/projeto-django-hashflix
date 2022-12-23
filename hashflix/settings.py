@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#qzfn!aql!mn$vq9j3qcbh8t)l#g99x%at^p=+woxz$zbzn(g$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'guizeraflix.herokuapp.com']
 
 # Application definition
 
